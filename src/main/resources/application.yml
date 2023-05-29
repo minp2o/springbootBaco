@@ -5,8 +5,8 @@ spring:
     suffix: .html
     cache: false
   datasource:
-    url: jdbc:h2:tcp://localhost/~/bacoshop
-#    url: jdbc:h2:mem:bacoshop
+#   url: jdbc:h2:tcp://localhost/~/bacoshop
+    url: jdbc:h2:mem:kaushop
     username: sa
     password:
     driver-class-name: org.h2.Driver
